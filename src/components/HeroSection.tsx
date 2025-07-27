@@ -33,7 +33,7 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary-50 to-surface opacity-80"></div>
+      <div className="absolute inset-0 bg-linear-to-br from-primary-50 to-surface opacity-80"></div>
       <div className="absolute inset-0">
         <svg className="w-full h-full opacity-10" viewBox="0 0 100 100" preserveAspectRatio="none">
           <defs>
@@ -63,7 +63,7 @@ export default function HeroSection() {
           </p>
           
           <div className="mb-8">
-            <span className="inline-block bg-primary-50 text-primary font-semibold px-4 py-2 rounded-lg shadow-sm text-base md:text-lg">
+            <span className="inline-block bg-primary-50 text-primary font-semibold px-4 py-2 rounded-lg shadow-xs text-base md:text-lg">
               💡 Jangan tunggu nanti. Masa depanmu bisa dimulai dari satu sapa hari ini.
             </span>
           </div>

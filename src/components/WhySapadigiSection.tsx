@@ -194,7 +194,7 @@ export default function WhySapadigiSection() {
                 className="text-text-secondary mb-2" 
                 dangerouslySetInnerHTML={{ __html: problem.description }}
               />
-              <div className="flex-grow"></div>
+              <div className="grow"></div>
               <button 
                 className="mt-4 inline-block px-4 py-2 btn-secondary text-lg font-semibold w-full"
                 onClick={() => setOpenModal(problem.id)}

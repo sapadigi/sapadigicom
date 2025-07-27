@@ -41,7 +41,7 @@ export default function NewsletterSection() {
                 <input 
                   type="email" 
                   placeholder="Masukkan email Anda" 
-                  className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+                  className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-hidden focus:ring-2 focus:ring-primary focus:border-transparent"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required 

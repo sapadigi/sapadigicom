@@ -1,7 +1,7 @@
 export default function WelcomeSection() {
   return (
     <div className="mb-8">
-      <div className="bg-gradient-to-r from-primary-50 to-primary-100 rounded-xl p-6 mb-6">
+      <div className="bg-linear-to-r from-primary-50 to-primary-100 rounded-xl p-6 mb-6">
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-2xl font-bold text-secondary mb-2">
@@ -27,7 +27,7 @@ export default function WelcomeSection() {
       </div>
 
       {/* Request Tools Section */}
-      <div className="bg-white rounded-xl p-6 mb-6 border border-gray-100 shadow-sm">
+      <div className="bg-white rounded-xl p-6 mb-6 border border-gray-100 shadow-xs">
         <div className="text-center">
           <p className="text-text-secondary mb-4">
             Kamu bisa request tools untuk kebutuhan kamu disini secara gratis

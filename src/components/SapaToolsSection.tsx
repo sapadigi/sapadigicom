@@ -42,7 +42,7 @@ export default function SapaToolsSection() {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Bio Link Demo */}
-          <div className="bg-gradient-to-br from-primary-50 to-primary-100 rounded-3xl p-8">
+          <div className="bg-linear-to-br from-primary-50 to-primary-100 rounded-3xl p-8">
             <div className="text-center mb-8">
               <h3 className="font-headline text-2xl font-semibold text-secondary mb-4">Bio Link Generator</h3>
               <p className="text-text-secondary">Buat bio link profesional dalam 30 detik</p>
@@ -105,7 +105,7 @@ export default function SapaToolsSection() {
           </div>
           
           {/* IG Template Demo */}
-          <div className="bg-gradient-to-br from-accent-50 to-accent-100 rounded-3xl p-8">
+          <div className="bg-linear-to-br from-accent-50 to-accent-100 rounded-3xl p-8">
             <div className="text-center mb-8">
               <h3 className="font-headline text-2xl font-semibold text-secondary mb-4">IG Template Preview</h3>
               <p className="text-text-secondary">Lihat template Instagram siap pakai</p>
@@ -117,7 +117,7 @@ export default function SapaToolsSection() {
                 className="bg-white rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow cursor-pointer" 
                 onClick={() => selectTemplate(1)}
               >
-                <div className="aspect-square bg-gradient-to-br from-pink-200 to-purple-200 rounded-lg mb-3 flex items-center justify-center">
+                <div className="aspect-square bg-linear-to-br from-pink-200 to-purple-200 rounded-lg mb-3 flex items-center justify-center">
                   <span className="text-2xl">📱</span>
                 </div>
                 <h4 className="font-medium text-secondary text-sm">Feed Post</h4>
@@ -128,7 +128,7 @@ export default function SapaToolsSection() {
                 className="bg-white rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow cursor-pointer" 
                 onClick={() => selectTemplate(2)}
               >
-                <div className="aspect-square bg-gradient-to-br from-blue-200 to-green-200 rounded-lg mb-3 flex items-center justify-center">
+                <div className="aspect-square bg-linear-to-br from-blue-200 to-green-200 rounded-lg mb-3 flex items-center justify-center">
                   <span className="text-2xl">📊</span>
                 </div>
                 <h4 className="font-medium text-secondary text-sm">Story Template</h4>
@@ -139,7 +139,7 @@ export default function SapaToolsSection() {
                 className="bg-white rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow cursor-pointer" 
                 onClick={() => selectTemplate(3)}
               >
-                <div className="aspect-square bg-gradient-to-br from-yellow-200 to-orange-200 rounded-lg mb-3 flex items-center justify-center">
+                <div className="aspect-square bg-linear-to-br from-yellow-200 to-orange-200 rounded-lg mb-3 flex items-center justify-center">
                   <span className="text-2xl">🎨</span>
                 </div>
                 <h4 className="font-medium text-secondary text-sm">Carousel</h4>
@@ -150,7 +150,7 @@ export default function SapaToolsSection() {
                 className="bg-white rounded-xl p-4 shadow-lg hover:shadow-xl transition-shadow cursor-pointer" 
                 onClick={() => selectTemplate(4)}
               >
-                <div className="aspect-square bg-gradient-to-br from-red-200 to-pink-200 rounded-lg mb-3 flex items-center justify-center">
+                <div className="aspect-square bg-linear-to-br from-red-200 to-pink-200 rounded-lg mb-3 flex items-center justify-center">
                   <span className="text-2xl">🎬</span>
                 </div>
                 <h4 className="font-medium text-secondary text-sm">Reels Cover</h4>

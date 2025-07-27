@@ -14,17 +14,17 @@ export default function ProductSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Product 1: Bio Link Generator */}
           <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-primary-200">
-            <div className="relative h-48 bg-gradient-to-br from-primary-100 to-primary-200 overflow-hidden">
+            <div className="relative h-48 bg-linear-to-br from-primary-100 to-primary-200 overflow-hidden">
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-32 h-40 bg-white rounded-lg shadow-lg transform group-hover:scale-105 transition-transform duration-300">
                   <div className="p-3 space-y-2">
                     <div className="w-16 h-16 bg-primary-200 rounded-full mx-auto"></div>
-                    <div className="h-2 bg-gray-200 rounded w-3/4 mx-auto"></div>
-                    <div className="h-2 bg-gray-200 rounded w-1/2 mx-auto"></div>
+                    <div className="h-2 bg-gray-200 rounded-sm w-3/4 mx-auto"></div>
+                    <div className="h-2 bg-gray-200 rounded-sm w-1/2 mx-auto"></div>
                     <div className="space-y-1">
-                      <div className="h-6 bg-primary-100 rounded"></div>
-                      <div className="h-6 bg-primary-100 rounded"></div>
-                      <div className="h-6 bg-primary-100 rounded"></div>
+                      <div className="h-6 bg-primary-100 rounded-sm"></div>
+                      <div className="h-6 bg-primary-100 rounded-sm"></div>
+                      <div className="h-6 bg-primary-100 rounded-sm"></div>
                     </div>
                   </div>
                 </div>
@@ -75,7 +75,7 @@ export default function ProductSection() {
           
           {/* Product 2: IG Template Creator */}
           <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-primary-200">
-            <div className="relative h-48 bg-gradient-to-br from-accent-100 to-accent-200 overflow-hidden">
+            <div className="relative h-48 bg-linear-to-br from-accent-100 to-accent-200 overflow-hidden">
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="grid grid-cols-2 gap-2">
                   <div className="w-20 h-20 bg-white rounded-lg shadow-md transform group-hover:rotate-3 transition-transform duration-300"></div>
@@ -130,17 +130,17 @@ export default function ProductSection() {
           
           {/* Product 3: Website Builder */}
           <div className="group bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-primary-200">
-            <div className="relative h-48 bg-gradient-to-br from-secondary-100 to-secondary-200 overflow-hidden">
+            <div className="relative h-48 bg-linear-to-br from-secondary-100 to-secondary-200 overflow-hidden">
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-36 h-24 bg-white rounded-lg shadow-lg transform group-hover:scale-105 transition-transform duration-300">
                   <div className="p-2 space-y-1">
-                    <div className="h-3 bg-gray-200 rounded w-full"></div>
-                    <div className="h-2 bg-gray-200 rounded w-3/4"></div>
-                    <div className="h-2 bg-gray-200 rounded w-1/2"></div>
+                    <div className="h-3 bg-gray-200 rounded-sm w-full"></div>
+                    <div className="h-2 bg-gray-200 rounded-sm w-3/4"></div>
+                    <div className="h-2 bg-gray-200 rounded-sm w-1/2"></div>
                     <div className="grid grid-cols-3 gap-1 mt-2">
-                      <div className="h-4 bg-primary-200 rounded"></div>
-                      <div className="h-4 bg-primary-200 rounded"></div>
-                      <div className="h-4 bg-primary-200 rounded"></div>
+                      <div className="h-4 bg-primary-200 rounded-sm"></div>
+                      <div className="h-4 bg-primary-200 rounded-sm"></div>
+                      <div className="h-4 bg-primary-200 rounded-sm"></div>
                     </div>
                   </div>
                 </div>
