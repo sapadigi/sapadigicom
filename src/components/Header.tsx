@@ -59,7 +59,9 @@ export default function Header() {
               Testimoni
             </a>
             {status === "authenticated" ? (
-              <span className="text-text-secondary">{session.user?.email}</span>
+              <Link href={"/dashboard"} className="btn-primary">
+                Dashboard
+              </Link>
             ) : (
               <Link href="/api/auth/signin" className="btn-primary">
                 Coba Gratis
@@ -122,14 +124,11 @@ export default function Header() {
             Testimoni
           </a>
           {status === "authenticated" ? (
-            <span className="block w-full text-left py-2 text-text-secondary">
-              {session.user?.email}
-            </span>
+            <Link href={"/dashboard"} className="w-full btn-primary mt-2">
+              Dashboard
+            </Link>
           ) : (
-            <Link
-              href="/api/auth/signin"
-              className="w-full btn-primary mt-2"
-            >
+            <Link href="/api/auth/signin" className="w-full btn-primary mt-2">
               Coba Gratis
             </Link>
           )}
